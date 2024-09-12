@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenish Care - Pharmacy</title>
+    <!-- External CSS Links for Styling the Page and Icons -->
+    <link rel="stylesheet" href="CSS/header and footer.css">
+    <link rel="stylesheet" href="CSS/pharmacy.css">
+    <!-- Favicon Links for various devices and platforms -->
+    <link rel="apple-touch-icon" sizes="180x180" href="Favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Favicons/favicon-16x16.png">
+    <link rel="manifest" href="Favicons/site.webmanifest">
+    <link rel="mask-icon" href="Favicons/safari-pinned-tab.svg" color="#000000">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <header>
+        <!-- Logo Section -->
+        <div class="logo">
+            <img src="Images\Greenish Care.png" alt="The Logo of the Hospital, Greenish Care">
+        </div>
+        <!-- Top-right section: Language switcher and login button -->
+        <div class="topright">
+            <div class="language-switcher">
+                <select class="language-select">
+                    <option value="english" selected>English</option>
+                    <option value="tamil">Tamil</option>
+                    <option value="sinhala">Sinhala</option>
+                </select>
+            </div>
+            <div class="login-logo">
+                <a href="login.html"><img src="Images\login logo.png" alt="Login logo"></a>
+            </div>
+        </div>
+        <!-- Main Heading -->
+        <div class="heading1">
+            <h2>Greenish Care</h2>
+        </div>
+        <!-- Horizontal rule -->
+        <hr>
+        <!-- Navigation Bar -->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About us</a>
+            <a href="services.html">Services</a>
+            <a href="doctors.html">Doctors</a>
+            <a href="reservation.html">Reservation</a>
+            <a href="pharmacy.html">Pharmacy</a>
+            <a href="registration.html">Registration</a>
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search...">
+            </div>
+        </nav>
+        <!-- Horizontal rule -->
+        <hr>
+    </header>
+    <main>
+        <!-- Pharmacy Section -->
+        <section class="pharmacy">
+            <h1>Pharmacy</h1>
+            <div class="box">
+                <!-- Medicine Selection Dropdown -->
+                <div class="dropdown">
+                    <label for="options">Choose a Medicine: </label>
+                    <select name="options" id="options">
+                        <option value="option1">Paracetamol</option>
+                        <option value="option2">Ibuprofen</option>
+                        <option value="option3">Aspirin</option>
+                        <option value="option4">Amoxicillin</option>
+                        <option value="option5">Ciprofloxacin</option>
+                        <option value="option6">Vitamin C</option>
+                        <option value="option7">Vitamin D</option>
+                        <option value="option8">Insulin</option>
+                        <option value="option9">Metformin</option>
+                        <option value="option10">Dextromethorphan</option>
+                    </select>
+                </div>
+                <!-- Input Fields for Quantity and Patient Information -->
+                <div class="fields">
+                    <label for="quantity">Quantity: </label>
+                    <input type="number" name="quantity" id="quantity" min="1" value="1">
+
+                    <label for="name">Patient Name:</label>
+                    <input type="text" name="patient-name" id="patient-name" placeholder="Patient Name" required>
+
+                    <label for="contact">Contact No:</label>
+                    <input type="text" name="contact" id="contact" placeholder="Contact" required>
+                </div>
+                <!-- Checkout Button -->
+                <div class="checkout">
+                    <button>Check Out</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Horizontal rule before footer -->
+    <hr id="hr-footer">
+    <footer>
+        <div class="footer">
+            <!-- Footer Logo -->
+            <div class="footer-logo">
+                <img src="Images\Greenish Care.png" alt="The Logo of the Hospital, Greenish Care">
+            </div>
+            <!-- Contact Information -->
+            <div class="contact">
+                <p>Contact us: (011) 2524167</p>
+            </div>
+            <!-- Appointment Booking Button -->
+            <button class="appointment"><a href="./reservation.html">Book an Appointment</a></button>
+        </div>
+        <!-- Footer Copyright -->
+        <div class="footer-text">
+            <p>&copy; 2024 Greenish Care. All Rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

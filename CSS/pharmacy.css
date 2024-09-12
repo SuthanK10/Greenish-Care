@@ -1,0 +1,122 @@
+/* Login logo positioning */
+.login-logo {
+    position: relative;
+    bottom: 11px;
+}
+
+/* Language switcher positioning */
+.language-switcher {
+    position: relative;
+    left: 10px;
+}
+
+/* General body styling with a background image */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    background-color: #add8e6; /* Light blue background */
+    background-image: url('/Images/pharmacy-img.jpg'); /* Background image for the page */
+}
+
+/* Pharmacy section styling */
+.pharmacy {
+    padding: 0 20px;
+    text-align: left;
+}
+
+/* Main heading inside the pharmacy section */
+.pharmacy h1 {
+    font-size: 36px;
+    margin-bottom: 25px;
+    text-align: center;
+    position: relative;
+}
+
+/* Box layout styling */
+.box {
+    background-color: white;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    max-width: 600px;
+    margin-left: 420px; /* Centering the box */
+    margin-bottom: 30px;
+}
+
+/* Styling for dropdown and input fields */
+.dropdown, .fields {
+    margin-bottom: 5px;
+    max-width: 600px;
+}
+
+/* Fields styling for input fields inside form elements */
+.fields {
+    max-width: 580px;
+}
+
+/* Label styling */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Input and select field styling */
+select, input[type="number"], input[type="text"] {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+/* Checkout button styling */
+.checkout button {
+    border-radius: 30px;
+    background-color: #3c6b92;
+    padding: 15px;
+    border: 0;
+    color: white;
+    text-decoration: none;
+}
+
+/* Checkout section styling */
+.checkout {
+    display: flex;
+    justify-content: center;
+}
+
+/* Hover effect for the checkout button */
+.checkout button:hover {
+    background-color: #325877;
+}
+
+/* Horizontal rule styling in the footer */
+#hr-footer {
+    position: relative;
+    top: 10px;
+}
+
+/* Responsive styling for screens smaller than 768px */
+@media (max-width: 768px) {
+    /* h1 heading adjustments for smaller screens */
+    h1 {
+        position: relative;
+    }
+
+    /* Header height adjustment for smaller screens */
+    header {
+        height: 297px;
+    }
+
+    /* Box layout adjustments for smaller screens */
+    .box {
+        margin-left: 10px;
+    }
+
+    /* Fields width adjustment for smaller screens */
+    .fields {
+        max-width: 355px;
+    }
+}
