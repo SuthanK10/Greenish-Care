@@ -2,7 +2,7 @@
     "name": "Greenish Care",
     "short_name": "Greenish Care",
     "description": "A hospital providing exceptional medical services and patient care.",
-    "start_url": "/index.html",
+    "start_url": "https://suthank10.github.io/Greenish-Care/",
     "display": "standalone",
     "background_color": "#ADD8E6",
     "theme_color": "#ffffff",
