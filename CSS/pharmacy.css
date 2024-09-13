@@ -16,7 +16,7 @@ body {
     font-family: Arial, sans-serif;
     overflow-x: hidden;
     background-color: #add8e6; /* Light blue background */
-    background-image: url('Images/pharmacy-img.jpg'); /* Background image for the page */
+    background-image: url('../Images/pharmacy-img.jpg'); /* Background image for the page */
 }
 
 /* Pharmacy section styling */
