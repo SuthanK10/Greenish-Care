@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Greenish Care - Doctors</title>
     <!-- External CSS Links for Styling the Page and Icons -->
-    <link rel="stylesheet" href="CSS/header and footer.css">
+    <link rel="stylesheet" href="CSS/header_and_footer.css">
     <link rel="stylesheet" href="CSS/doctors.css">
     <!-- Favicon Links for various devices and platforms -->
     <link rel="apple-touch-icon" sizes="180x180" href="Favicons/apple-touch-icon.png">
@@ -20,7 +20,7 @@
     <header>
         <!-- Logo Section -->
         <div class="logo">
-            <img src="Images\Greenish Care.png" alt="The Logo of the Hospital, Greenish Care">
+            <img src="Images/GreenishCare.png" alt="The Logo of the Hospital, Greenish Care">
         </div>
         <!-- Top-right section: Language switcher and login button -->
         <div class="topright">
@@ -32,7 +32,7 @@
                 </select>
             </div>
             <div class="login-logo">
-                <a href="login.html"><img src="Images\login logo.png" alt="Login logo"></a>
+                <a href="login.html"><img src="Images/loginlogo.png" alt="Login logo"></a>
             </div>
         </div>
         <!-- Main Heading -->
@@ -51,7 +51,8 @@
             <a href="pharmacy.html">Pharmacy</a>
             <a href="registration.html">Registration</a>
             <div class="search-container">
-                <input type="text" class="search-input" placeholder="Search...">
+                <label for="search-input" class="visually-hidden">Search</label>
+                <input type="text" id="search-input" class="search-input" placeholder="Search...">
             </div>
         </nav>
         <!-- Horizontal rule -->
@@ -63,7 +64,7 @@
         <section class="sect01">
             <!-- Doctor Profile Column 1 -->
             <div class="column">
-                <img src="Images\RS_Doc1.jpg" alt="Photo of Dr Sofia Martinez, MD">
+                <img src="Images/RS_Doc1.jpg" alt="Photo of Dr Sofia Martinez, MD">
                 <p>Name: Dr. Sofia Martinez, MD</p>
                 <p>Specialty: Cardiology</p>
                 <p>Description: Dr. Sofia Martinez is an experienced cardiologist specializing in heart disease prevention and treatment. She is known for her patient-centered care and expertise in non-invasive procedures.</p>
@@ -86,21 +87,21 @@
         <section class="sect02">
             <!-- Doctor Profile Column 4 -->
             <div class="column">
-                <img src="Images\RS_Doc4.jpg" alt="Photo of Dr. Michael Johnson, MD">
+                <img src="Images/RS_Doc4.jpg" alt="Photo of Dr. Michael Johnson, MD">
                 <p>Name: Dr. Michael Johnson, MD</p>
                 <p>Specialty: Neurology</p>
                 <p>Description: Dr. Michael Johnson is a neurologist with expertise in treating neurological disorders such as epilepsy and migraines. He is known for his thorough diagnostic skills and compassionate patient care.</p>
             </div>
             <!-- Doctor Profile Column 5 -->
             <div class="column">
-                <img src="Images\RS_Doc5.jpg" alt="Photo of Dr. Anna Kim, DDS">
+                <img src="Images/RS_Doc5.jpg" alt="Photo of Dr. Anna Kim, DDS">
                 <p>Name: Dr. Anna Kim, DDS</p>
                 <p>Specialty: Dentistry</p>
                 <p>Description: Dr. Anna Kim is a dentist specializing in cosmetic and pediatric dentistry. She is highly regarded for her gentle approach and ability to make dental visits comfortable for all ages.</p>
             </div>
             <!-- Doctor Profile Column 6 -->
             <div class="column">
-                <img src="Images\RS_Doc6.jpg" alt="Photo of Dr. Luca Romano, MD">
+                <img src="Images/RS_Doc6.jpg" alt="Photo of Dr. Luca Romano, MD">
                 <p>Name: Dr. Luca Romano, MD</p>
                 <p>Specialty: Rheumatology</p>
                 <p>Description: Dr. Luca Romano is a Milan-based rheumatologist specializing in autoimmune diseases and chronic inflammation, such as rheumatoid arthritis and lupus. Known for his compassionate care and patient-centered approach.</p>
@@ -113,14 +114,14 @@
         <div class="footer">
             <!-- Footer Logo -->
             <div class="footer-logo">
-                <img src="Images/Greenish Care.png" alt="The Logo of the Hospital, Greenish Care">
+                <img src="Images/GreenishCare.png" alt="The Logo of the Hospital, Greenish Care">
             </div>
             <!-- Contact Information -->
             <div class="contact">
                 <p>Contact us: (011) 2524167</p>
             </div>
             <!-- Appointment Booking Button -->
-            <button class="appointment"><a href="./reservation.html">Book an Appointment</a></button>
+            <button class="appointment" onclick="window.location.href='./reservation.html'">Book an Appointment</button>
         </div>
         <!-- Footer Copyright -->
         <div class="footer-text">

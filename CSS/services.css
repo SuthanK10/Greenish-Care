@@ -40,7 +40,7 @@ body {
     height: 180px; /* Fixed size for service images */
     position: relative;
     top: 30px;
-    margin-bottom: 3.5rem;
+    margin-bottom: 56px;
 }
 
 /* Service text: Spacing for text next to the image */
@@ -87,7 +87,7 @@ body {
     }
 
     .service-box img{
-       margin-bottom: 2rem;
+       margin-bottom: 32px;
        width: 300px;
        height: 250px;
     }

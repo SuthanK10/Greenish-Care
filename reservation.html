@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Greenish Care - Reservation</title>
     <!-- External CSS Links for Styling the Page and Icons -->
-    <link rel="stylesheet" href="CSS/header and footer.css">
+    <link rel="stylesheet" href="CSS/header_and_footer.css">
     <link rel="stylesheet" href="CSS/reservation.css">
     <!-- Favicon Links for various devices and platforms -->
     <link rel="apple-touch-icon" sizes="180x180" href="Favicons/apple-touch-icon.png">
@@ -20,7 +20,7 @@
     <header>
         <!-- Logo Section -->
         <div class="logo">
-            <a href="index.html"><img src="Images\Greenish Care.png" alt="The Logo of the Hospital, Greenish Care"></a>
+            <a href="index.html"><img src="Images/GreenishCare.png" alt="The Logo of the Hospital, Greenish Care"></a>
         </div>
         <!-- Top-right section: Language switcher and login button -->
         <div class="topright">
@@ -32,7 +32,7 @@
                 </select>
             </div>
             <div class="login-logo">
-                <img src="Images\login logo.png" alt="Login logo"></a>
+                <img src="Images/loginlogo.png" alt="Login logo">
             </div>
         </div>
         <!-- Main Heading -->
@@ -51,7 +51,8 @@
             <a href="pharmacy.html">Pharmacy</a>
             <a href="registration.html">Registration</a>
             <div class="search-container">
-                <input type="text" class="search-input" placeholder="Search...">
+                <label for="search-input" class="visually-hidden">Search</label>
+                <input type="text" id="search-input" class="search-input" placeholder="Search...">
             </div>
         </nav>
         <!-- Horizontal rule -->
@@ -71,7 +72,7 @@
                 <input type="text" id="last-name" placeholder="Last Name" required>
 
                 <label for="date">Date:</label>
-                <input type="date" id="date" placeholder="Date" required>
+                <input type="date" id="date" required>
 
                 <label for="mobile-no">Mobile no:</label>
                 <input type="number" id="mobile-no" placeholder="Mobile No" required>
@@ -101,14 +102,14 @@
         <div class="footer">
             <!-- Footer Logo -->
             <div class="footer-logo">
-                <img src="Images\Greenish Care.png" alt="The Logo of the Hospital, Greenish Care">
+                <img src="Images/GreenishCare.png" alt="The Logo of the Hospital, Greenish Care">
             </div>
             <!-- Contact Information -->
             <div class="contact">
                 <p>Contact us: (011) 2524167</p>
             </div>
             <!-- Appointment Booking Button -->
-            <button class="appointment"><a href="./reservation.html">Book an Appointment</a></button>
+            <button class="appointment" onclick="window.location.href='./reservation.html'">Book an Appointment</button>
         </div>
         <!-- Footer Copyright -->
         <div class="footer-text">
